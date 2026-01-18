@@ -1,0 +1,66 @@
+#ball {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+  animation-name: anything;
+  animation-timing-function: ease-out;
+  animation-duration: 5s;
+  /* animation-delay: 2s; */
+  animation-iteration-count: 2;
+  /* animation-direction: alternate-reverse; */
+
+  /* animation-delay: 10s; */
+}
+@keyframes anything {
+  0% {
+    left: 20px;
+    top: 20px;
+    background-color: aquamarine;
+  }
+  25% {
+    left: 20px;
+    top: 200px;
+    background-color: black;
+  }
+  50% {
+    left: 200px;
+    top: 200px;
+    background-color: cadetblue;
+  }
+  75% {
+    left: 200px;
+    top: 20px;
+  }
+  100% {
+    left: 20px;
+    top: 20px;
+  }
+}
+#ball:hover {
+  animation-play-state: paused;
+}
+
+/* gsap , framer motion */
+
+/* translate , transition , media queries (github) */
+
+/* #container {
+  width: 100px;
+  height: 100px;
+  background-color: orange;
+  transition: all 4s;
+  transition-timing-function: ease-in;
+}
+#container:hover {
+  width: 400px;
+  height: 400px;
+} */
+
+/* units (absolute , relative) */
+
